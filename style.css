@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: brown;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0,0,0,0.7);
+    font-family: sans-serif;
+}
+.max-width{
+    width: 100%;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+}
+ .text{
+    color: white;
+    text-shadow: 3px 2px red;
+    font-size: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 200px;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 23px 50px;
+    color: white;
+    margin-right: 20px;
+    background-color:#66b3ff;
+    border: 2px solid white;
+}
+.navbar .menu li:hover{
+    background-color: black; 
+    color: white; 
+    border: 2px solid #008CBA;
+}
+
+/* banner part start */
+.banner{
+   background-image: url("images/bg3.png");
+   text-align: center;
+   width: 100%;
+   height: 500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.button2 {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+  .button-text {
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+    background-color:#66b3ff;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 20px 30px;
+  }
+  .button-text:hover{
+    background-color: black; 
+    color: white; 
+    border: 2px solid #008CBA;
+  }
+
+  /* footer */
+  .grid-foot {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+    background-color: rgb(0,0,0,1);
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    height: 250px;
+    padding-top: 50px;
+  }

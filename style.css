@@ -76,6 +76,37 @@
     color: white; 
     border: 2px solid #008CBA;
   }
+  /* image */
+
+.work-third{
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 100px 2%;
+    float: left;
+}
+.work-third img{
+    width: 100%;
+}
+
+#latest-work{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 50px;
+    text-shadow: 3px 3px palevioletred;
+    text-align: center;
+    color: white;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: crimson;
+    border: 2px solid white;
+    
+
+}
+#latest-work:hover{
+    background-color: royalblue; 
+    color: white; 
+}
 
   /* footer */
   .grid-foot {
